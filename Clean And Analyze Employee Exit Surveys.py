@@ -381,5 +381,4 @@ dissatisfaction_pct = combined_updated.pivot_table(index = 'service_cat', values
 get_ipython().magic('matplotlib inline')
 dissatisfaction_pct.plot(kind = 'bar', rot = 30)
 
-
 # From the initial analysis above, we can tentatively conclude that employees with 7 or more years of service are more likely to resign due to some kind of dissatisfaction with the job than employees with less than 7 years of service. However, we need to handle the rest of the missing data to finalize our analysis.
